@@ -1,0 +1,17 @@
+# script is nothing but a file containing executable commands
+# the rules that need to be followed during the creation of the shell scripts
+# 1. the shell script file name should have the extension .sh or .bash
+# 2. start the shell script with the a shebang line that is #!/bin/bash
+# 3. Add proper documentation like 
+# # Description: 
+# # Author:
+# # Date Created:
+# # Version: 
+# # Date Modified:
+# 4. And in the shell scripts only executable content should be added 
+# 5. After creating the script assign the executable permissions to the script using 
+# # chmod a+x scriptname.sh (this command will assign the executable permissions to all the user group and others)
+# 6. Run the script with the absolute path or relative path or shell interpreter 
+# # absolute path /home/vagrant/scriptname.sh (just a example)
+# # relative path ./scriptname.sh/ (it can be used only when it is inside the folder that it was created)
+# # shell interpreter /bin/bash/scriptname.sh (it can be used without the executable permissionsalos)
